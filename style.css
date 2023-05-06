@@ -1,0 +1,53 @@
+/** i forgor css **/
+
+body {
+    background-color: #27282D;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.button-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .button-list li {
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  .button-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .button-list li a {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: 140px;
+    text-align: center;
+    background-color: #478537;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button-list li a:hover {
+    background-color: #3c6d2f;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
